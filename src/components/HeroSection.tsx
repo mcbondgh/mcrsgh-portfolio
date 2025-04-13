@@ -13,10 +13,10 @@ export function HeroSection() {
               <p className="text-ghana-gold font-medium">Full Stack Developer</p>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Transforming Ideas Into <span className="text-ghana-gold">Digital Solutions</span>
+              Hi, I'm <span className="text-ghana-gold">MCBOND</span>
             </h1>
             <p className="text-lg text-gray-300 max-w-xl">
-              A passionate web developer based in Ghana with 3 years of experience building web, mobile, and desktop applications.
+              Founder of MC's Republic Ghana, a passionate web developer with 3 years of experience building web, mobile, and desktop applications.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button className="bg-ghana-gold text-black hover:bg-ghana-gold/90 hover:text-black" size="lg">

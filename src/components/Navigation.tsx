@@ -38,8 +38,8 @@ export function Navigation() {
     )}>
       <div className="container mx-auto flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-white flex items-center">
-          <span className="text-ghana-gold">GH</span>
-          <span className="text-ghana-red">Dev</span>
+          <span className="text-ghana-gold">MC's</span>
+          <span className="text-ghana-red">Republic</span>
         </a>
         
         {/* Desktop Navigation */}

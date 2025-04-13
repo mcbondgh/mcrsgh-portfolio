@@ -10,8 +10,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
             <div className="text-2xl font-bold text-white mb-4 flex items-center">
-              <span className="text-ghana-gold">GH</span>
-              <span className="text-ghana-red">Dev</span>
+              <span className="text-ghana-gold">MC's</span>
+              <span className="text-ghana-red">Republic</span>
             </div>
             <p className="text-gray-400 mb-6">
               Building powerful web, mobile, and desktop solutions with the perfect blend of functionality and design.
@@ -80,7 +80,7 @@ export function Footer() {
         
         <div className="pt-8 border-t border-zinc-800 text-center">
           <p className="text-gray-500">
-            &copy; {currentYear} | Ghanaian Web Developer | All Rights Reserved 
+            &copy; {currentYear} | MC's Republic Ghana | All Rights Reserved 
           </p>
         </div>
       </div>
