@@ -40,8 +40,18 @@ export function ProjectsSection() {
       description: "Platform for managing small loans, repayments, and client information for microfinance institutions.",
       features: ["Loan processing", "Payment tracking", "Client management", "Risk assessment"],
       tech: ["PHP", "JavaScript", "MySQL"]
+    },
+    {
+      title: "Payment Platform",
+      description: "A secure online payment gateway for receiving personal payments.",
+      features: ["Secure transactions", "Transaction history"],
+      tech : ['PHP', 'JavaScript', 'MySQL', 'Stripe API']
     }
   ];
+
+  const openPaymentLink = () => {
+    window.open("https://pay.mcrgh.com", "_blank");
+  };
 
   return (
     <section id="projects" className="bg-zinc-900 section-padding">
@@ -65,7 +75,7 @@ export function ProjectsSection() {
                 <div className="p-6 space-y-4">
                   <div className="flex justify-between items-start">
                     <FolderOpenDot className="h-10 w-10 text-ghana-gold" />
-                    <Button variant="ghost" size="icon" className="text-white hover:text-ghana-gold hover:bg-transparent">
+                    <Button variant="ghost" size="icon" className="text-white hover:text-ghana-gold hover:bg-transparent" onClick={openPaymentLink}>
                       <ArrowUpRight className="h-5 w-5" />
                     </Button>
                   </div>
@@ -96,9 +106,9 @@ export function ProjectsSection() {
         </div>
         
         <div className="flex justify-center mt-12">
-          <Button variant="outline" className="border-ghana-gold text-ghana-gold hover:bg-ghana-gold hover:text-black">
+          {/* <Button variant="outline" className="border-ghana-gold text-ghana-gold hover:bg-ghana-gold hover:text-black">
             View All Projects
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>

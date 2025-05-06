@@ -17,16 +17,13 @@ export function Footer() {
               Building powerful web, mobile, and desktop solutions with the perfect blend of functionality and design.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
+              <a href="https://github.com/mcbondgh" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
+              <a href="https://x.com/mcbond_gh" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
+              <a href="https://instagram.com/mcbondgh" className="w-10 h-10 bg-zinc-900 rounded-full flex items-center justify-center text-gray-400 hover:bg-ghana-gold hover:text-black transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -65,13 +62,13 @@ export function Footer() {
                 Accra / Koforidua, Ghana
               </li>
               <li>
-                <a href="mailto:developer@example.com" className="text-gray-400 hover:text-ghana-gold transition-colors">
-                  developer@example.com
+                <a href="mailto:mcbondprince@yahoo.com" className="text-gray-400 hover:text-ghana-gold transition-colors">
+                  mcbondprince@yahoo.com & realmcbond@hotmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+233000000000" className="text-gray-400 hover:text-ghana-gold transition-colors">
-                  +233 XX XXX XXXX
+                <a href="tel:+233246454922" className="text-gray-400 hover:text-ghana-gold transition-colors">
+                  +233 24 645 3922
                 </a>
               </li>
             </ul>

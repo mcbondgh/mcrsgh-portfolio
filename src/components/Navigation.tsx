@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
+// import '@/App.css';
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,12 @@ export function Navigation() {
     { label: "Contact", href: "#contact" }
   ];
 
+  
+  let openResume = () => {
+    window.open("https://drive.google.com/file/d/1W1ktD5BLnoUgRjUocaVnUkdYziDJS2FW/view?usp=sharing", "_blank");
+  }
+
+
   return (
     <nav className={cn(
       "fixed top-0 left-0 w-full z-50 transition-all duration-300 px-6 md:px-10 lg:px-20 py-4",
@@ -38,8 +45,9 @@ export function Navigation() {
     )}>
       <div className="container mx-auto flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-white flex items-center">
-          <span className="text-ghana-gold">MC's</span>
-          <span className="text-ghana-red">Republic</span>
+          {/* <span className="text-ghana-gold">MC's</span>
+          <span className="text-light"> Republic</span> */}
+          <img src="../public/mcr_logo.jpg" className='w-20 h-15'></img>
         </a>
         
         {/* Desktop Navigation */}
@@ -53,7 +61,7 @@ export function Navigation() {
               {item.label}
             </a>
           ))}
-          <Button variant="outline" className="border-ghana-green text-white hover:bg-ghana-green">
+          <Button variant="outline" className="border-ghana-green hover:bg-#000 color-white" onClick={openResume}>
             Resume
           </Button>
         </div>
@@ -84,7 +92,7 @@ export function Navigation() {
               {item.label}
             </a>
           ))}
-          <Button variant="outline" className="border-ghana-green text-white hover:bg-ghana-green">
+          <Button variant="outline" className="color-white text-white border-ghana-green hover:bg-#000 color-white" onClick={openResume}>
             Resume
           </Button>
         </div>

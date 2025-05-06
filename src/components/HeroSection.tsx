@@ -18,7 +18,7 @@ export function HeroSection() {
             <p className="text-lg text-gray-300 max-w-xl">
               Founder of MC's Republic Ghana, a passionate web developer with 3 years of experience building web, mobile, and desktop applications.
             </p>
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <Button className="bg-ghana-gold text-black hover:bg-ghana-gold/90 hover:text-black" size="lg">
                 <span>View Projects</span>
                 <ArrowRightIcon className="ml-2 h-4 w-4" />
@@ -26,16 +26,16 @@ export function HeroSection() {
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black" size="lg">
                 Contact Me
               </Button>
-            </div>
+            </div> */}
           </div>
           
-          <div className="hidden lg:flex justify-center relative">
-            <div className="relative w-72 h-72">
+          <div className="hidden lg:flex justify-center relative animate-fade-in">
+            <div className="relative w-80 h-80 lg:w-96 lg:h-[500px] rounded-lg overflow-hidden">
               <div className="absolute inset-0 rotate-45 border-2 border-ghana-red bg-black/30 rounded-lg animate-bounce-gentle" style={{ animationDelay: '0s' }}></div>
               <div className="absolute inset-0 rotate-[30deg] border-2 border-ghana-gold bg-black/30 rounded-lg animate-bounce-gentle" style={{ animationDelay: '0.5s' }}></div>
               <div className="absolute inset-0 rotate-[15deg] border-2 border-ghana-green bg-black/30 rounded-lg animate-bounce-gentle" style={{ animationDelay: '1s' }}></div>
               <div className="absolute inset-0 bg-gradient-to-br from-black/80 to-black/20 backdrop-blur-sm rounded-xl flex items-center justify-center p-5">
-                <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=format&fit=crop&q=80&w=1934&ixlib=rb-4.0.3" alt="Developer" className="rounded-lg object-cover w-full h-full" />
+                <img src="../public/hero_image.jpg" alt="Developer" className="rounded-lg object-cover w-full h-full" />
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export function HeroSection() {
         href="#about" 
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white animate-bounce-gentle"
       >
-        <span className="text-sm mb-2">Scroll Down</span>
+        <span className="text-sm mt-5">Scroll Down</span>
         <ChevronDownIcon className="h-6 w-6" />
       </a>
     </section>

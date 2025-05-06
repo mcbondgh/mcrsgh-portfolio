@@ -46,14 +46,14 @@ export function ContactSection() {
     { 
       icon: <Mail className="h-5 w-5 text-ghana-gold" />, 
       title: "Email",
-      value: "developer@example.com",
-      link: "mailto:developer@example.com"
+      value: "mcbondprince@yahoo.com",
+      link: "mailto:mcbondprince@yahoo.com"
     },
     { 
       icon: <Phone className="h-5 w-5 text-ghana-gold" />, 
       title: "Phone",
-      value: "+233 XX XXX XXXX",
-      link: "tel:+233000000000"
+      value: "+233 24 645 3922",
+      link: "tel:+233246454922"
     },
     { 
       icon: <MapPin className="h-5 w-5 text-ghana-gold" />, 

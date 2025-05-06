@@ -54,7 +54,7 @@ export function AboutSection() {
                 </div>
                 <h3 className="text-xl font-bold text-white">Full-Stack Development</h3>
                 <p className="text-gray-400">
-                  End-to-end development from database design to user interfaces for web and desktop applications.
+                  End-to-end development from database design to user interfaces for web, mobile and desktop applications.
                 </p>
               </CardContent>
             </Card>
@@ -66,7 +66,8 @@ export function AboutSection() {
                 </div>
                 <h3 className="text-xl font-bold text-white">Education</h3>
                 <p className="text-gray-400">
-                  Bachelor of Engineering Technology in Computer Engineering, with focused training in software development.
+                  Bachelor of Technology in AI & ROBOTICS, with focused training in software development. <br/>
+                  HND In COMPUTER SCIENCE
                 </p>
               </CardContent>
             </Card>
